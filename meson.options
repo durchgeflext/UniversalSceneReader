@@ -1,0 +1,5 @@
+option('loglevel',
+       type : 'combo',
+       choices : ['auto', 'info', 'debug', 'trace'],
+       value : 'auto'
+)
